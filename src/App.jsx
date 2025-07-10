@@ -4,6 +4,7 @@ import HomePage from "./components/HomePage"
 import Project from "./components/Project"
 import About from "./components/About"
 import Contact from "./components/Contact"
+import { Toaster, ToastIcon } from "react-hot-toast"
 
 function App() {
 
@@ -16,6 +17,8 @@ function App() {
         <Route path="/project" element={<Project />} />
         <Route path="/contact" element={<Contact />} />
       </Routes> 
+
+      <Toaster />
     </>
   )
 }

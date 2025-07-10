@@ -35,7 +35,7 @@ const About = () => {
 
   
   return (
-        <div className='grid grid-cols-2 min-h-screen'>
+        <div className='grid grid-cols-2 min-h-screen bg-[#1D232A]'>
           <div className='relative flex-col items-center justify-center'>
             <h1 className='text-4xl font-bold absolute top-20 left-20 text-yellow-300' >About Me</h1>
             <h2 id="text1" className='text-md absolute top-35 left-10 text-white w-9/10' >I am a college student from Sun Yat-sen University(中山大学)。And i am trying my best to be a great software engineer.</h2>

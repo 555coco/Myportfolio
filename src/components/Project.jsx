@@ -29,7 +29,7 @@ const Project = () => {
 
 
   return (
-      <div className='min-h-screen'>
+      <div className='min-h-screen bg-[#1D232A]'>
           <div className='relative'>
             <h1 className='absolute top-30 text-4xl text-yellow-400 font-bold ml-15'>Protfolio</h1>
           </div>
