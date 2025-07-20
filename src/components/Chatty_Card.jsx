@@ -4,13 +4,13 @@ import React from 'react'
 const Card = ({title,text,btn_text,img,className}) => {
 
     return(
-        <div className={`card bg-white w-80 shadow-sm rounded-3xl ${className}`}>
+        <div className={`card bg-white w-80 h-90 shadow-sm rounded-3xl ${className}`}>
             <figure>
                 <img
                 src={img}
                 alt="project" />
             </figure>
-            <div className="card-body bg-pink-200 rounded-b-3xl">
+            <div className="card-body bg-pink-200 rounded-b-3xl h-40">
                 <h2 className="card-title text-pink-700">{title}</h2>
                 <p className='text-black font-bold'>{text}</p>
                 <div className="card-actions justify-end">
